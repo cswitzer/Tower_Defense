@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Waypoint : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Mouse click events are added here because our containing object (Tile) contains a collider, which is needed for mouse clicking events
     void Start()
     {
         
