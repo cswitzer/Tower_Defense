@@ -1,0 +1,25 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class TargetLocator : MonoBehaviour
+{
+    [SerializeField] Transform weapon;
+    [SerializeField] Transform target;
+
+    void Start()
+    {
+        target = FindObjectOfType<EnemyMover>().transform;
+    }
+
+    void Update()
+    {
+        AimWeapon();
+    }
+
+    void AimWeapon()
+    {
+        Vector3 targetPosition = target.transform.position;
+        weapon.LookAt(targetPosition);
+    }
+}

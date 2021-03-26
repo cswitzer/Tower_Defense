@@ -32,6 +32,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 1559239589666012885, guid: d83fde43be584de468179c3693fe2427,
+        type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3238936164143594445, guid: d83fde43be584de468179c3693fe2427,
         type: 3}
       propertyPath: m_RootOrder
